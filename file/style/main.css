@@ -1,0 +1,59 @@
+body{
+    background: url(../images/Torontobj.jpg);
+    background-size: 1000px 600px;   
+}
+h1 {
+    color: white;
+    letter-spacing: 3px;
+}
+#mainDiv{
+    width: 400px;
+    text-align: center;
+}
+#retreive{
+    width: 100%;
+    border: solid black 1px;
+    border-radius: 11px;
+}
+#selectOptions{
+    width: 115;
+    margin: auto;
+    padding: 6px;
+}
+.btns{
+    border: solid black 1px;
+    border-radius: 11px;
+}
+#search{
+   margin: auto;
+    width: 175px;
+    margin-bottom: 2px;
+    background-color: lightblue;
+    border-radius: 20px;
+
+}
+#result{
+    margin: auto;
+    width: 100%;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+#actions{
+    width: 400;
+    text-align: center;
+    margin: 4px 2px;
+}
+button{
+background: #051f44;
+border: none;
+color: azure;
+width: 130;
+padding: 12px 6px;
+cursor: pointer;
+}
+label{
+    padding-right: 6px;
+}
+select {
+    margin-bottom: 20px;
+}

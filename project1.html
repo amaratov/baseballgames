@@ -1,0 +1,65 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <h1>Welcome to Major League Baseball</h1>
+    <title>Major League Baseball Form</title>
+    <link rel="stylesheet" type="text/css" href="file/style/main.css" />
+</head>
+<body>
+    <main>
+     <div id="mainDiv">
+        <div id="search">
+            <div id="selectOptions">
+                <label for="year">Year</label>
+            <select name="year" id="year">
+                <option selected>Select a year</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+            </select>
+            <label for="month">Month</label>
+            <select name="month" id="month">
+                <option selected>Select a month</option>
+            </select>
+            <label for="day">Day</label>
+            <select name="day" id="day">
+                <option selected>Select a day</option>
+            </select>
+            </div>
+         <div>
+            <button id="retreive" onclick="retreive()">Retrieve</button>
+         </div>
+        </div>
+        
+        <div id="result">
+            <label for="homeTeam">Home Team Name</label>
+            <br>
+            <input id="homeTeam" type="text" onkeypress="return checkField(event);">
+            <br>
+            <label for="awayTeam">Away Team Name</label>
+            <br>
+            <input id="awayTeam" type="text" onkeypress="return checkField(event);">
+            <br>
+            <label for="winning">Winning Pitcher</label>
+            <br>
+            <input id="winning" type="text" onkeypress="return checkField(event);">
+            <br>
+            <label for="loosing">Losing Pitcher</label>
+            <br>
+            <input id="loosing" type="text" onkeypress="return checkField(event);">
+            <br>
+            <label for="venue">Venue</label>
+            <br>
+            <input id="venue" type="text" onkeypress="return checkFieldVenue(event);">
+        </div>
+
+        <div id="actions">
+            <button id="previousGame" class="btns">Previous Game</button>
+            <button id="nextGame" class="btns">Next Game</button>
+            <button class="btns">Save Changes</button>
+        </div>
+     </div>
+    </main>
+    <script src="file/js/main.js"></script>
+</body>
+</html>
